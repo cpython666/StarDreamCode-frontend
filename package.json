@@ -19,22 +19,29 @@
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
-    "@electron-toolkit/utils": "^3.0.0",
-    "electron-updater": "^6.1.7"
+    "@electron-toolkit/utils": "^4.0.0",
+    "electron-updater": "^6.8.11"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config": "^1.0.1",
     "@rushstack/eslint-patch": "^1.6.1",
-    "@vitejs/plugin-vue": "^5.0.3",
+    "@vitejs/plugin-vue": "^5.2.4",
     "@vue/eslint-config-prettier": "^9.0.0",
-    "electron": "^28.2.0",
-    "electron-builder": "^24.9.1",
-    "electron-vite": "^2.0.0",
+    "electron": "^45.3.4",
+    "electron-builder": "^26.18.0",
+    "electron-builder-squirrel-windows": "26.18.0",
+    "electron-vite": "^6.0.0",
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.20.1",
     "prettier": "^3.2.4",
-    "vite": "^5.0.12",
-    "vue": "^3.4.15",
+    "vite": "^6.4.4",
+    "vue": "^3.5.42",
     "vue-router": "^4.3.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "tar@^7": "7.5.21",
+      "form-data@^4": "4.0.6"
+    }
   }
 }
